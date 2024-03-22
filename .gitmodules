@@ -1,0 +1,3 @@
+[submodule "tpb/themes/kiss-fork"]
+	path = tpb/themes/kiss-fork
+	url = https://github.com/rahulrai-in/kiss.git
