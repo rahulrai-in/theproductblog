@@ -65,7 +65,7 @@ h3_md = "24px"
 h4 = "24px"
 h5 = "18px"
 h6 = "16px"
-white = "#ffffff"
+white = "#FFFFFF"
 black = "#000000"
 dark = "#152035"
 gray = "#747577"
@@ -87,7 +87,7 @@ search = true
 # main section
 mainSections = ["blog"]
 # copyright
-copyright = "Designed & Developed By [Gethugothemes](https://gethugothemes.com/)"
+copyright = "©️ The Product Blog Authors"
 
 # Preloader
 [params.preloader]
@@ -102,7 +102,7 @@ access_token = "IGQVJYeUk4YWNIY1h4OWZANeS1wRHZARdjJ5QmdueXN2RFR6NF9iYUtfcGp1Nmpx
 
 # Subscription
 [params.subscription]
-enable = true
+enable = false
 # mailchimp subsciption
 mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"                                                           # replace this code with yours
