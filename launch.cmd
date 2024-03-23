@@ -5,7 +5,7 @@
 # First pull? Execute the following to pull the submodule.
 # git submodule update --init --recursive
 
-cd tcb
+cd tpb
 
 hugo server --buildDrafts --disableFastRender --verbose
 
