@@ -1,5 +1,5 @@
-tpb/hugo.exe
-tpb/node_modules
-tpb/public/
-tpb/resources/_gen/
+**/hugo.exe
+**/node_modules
+**/public/
+**/resources/_gen/
 
