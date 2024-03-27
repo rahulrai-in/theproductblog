@@ -1,9 +1,7 @@
 ---
 title: "Rahul Rai"
 image: "images/author/rahul.png"
-email: "abdulmonnafsomrat@gmail.com"
-date: 2021-02-02T10:20:19+06:00
-draft: false
+email: "rahul@theproductblog.net"
 social:
 - icon: "la-linkedin-in"
   link: "https://www.linkedin.com/in/rahulrai-in/"

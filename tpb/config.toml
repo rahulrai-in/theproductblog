@@ -1,20 +1,16 @@
 ######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/bookworm-light/"
-title = "Bookworm - Personal Blog Template"
+baseURL = "https://theproductblog.net"
+title = "The Product Blog"
 theme = "bookworm"
 # post pagination
-paginate = "5"
+paginate = "20"
 # post excerpt
 summaryLength = "20"
-# google analytics
-googleAnalytics = "" # example : UA-123-45
-# disqus short name
-disqusShortname = "themefisher-template" # get your shortname form here : https://disqus.com
 
 ############################# Modules ##############################
 [module.hugoVersion]
 extended = true
-min = "0.87.0"
+min = "0.123.0"
 
 ############################# Image Processing ##############################
 [imaging]
@@ -27,7 +23,6 @@ home = ["HTML", "RSS", "JSON"]
 
 [markup.goldmark.renderer]
 unsafe = true
-
 
 ############################## Plugins ##############################
 # CSS Plugins
@@ -76,12 +71,12 @@ color_primary = "#01AD9F"
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = "images/logo.svg"
 logo_width = "200px"
 favicon = "images/favicon.png"
 # Meta data
-description = "This is meta description"
-author = "Themefisher"
+description = "Gain a competitive edge in the dynamic field of product management. Get insights on product strategy, roadmap planning, agile methodologies, and team leadership!"
+author = "The Product Blog Authors"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # search
@@ -99,121 +94,42 @@ preloader = "" # use jpg, png, svg or gif format.
 # Instagram feed
 [params.instafeed]
 enable = false
-instagram_user = "bookworm"
-access_token = "IGQVJYeUk4YWNIY1h4OWZANeS1wRHZARdjJ5QmdueXN2RFR6NF9iYUtfcGp1NmpxZA3RTbnU1MXpDNVBHTzZAMOFlxcGlkVHBKdjhqSnUybERhNWdQSE5hVmtXT013MEhOQVJJRGJBRURn"
 
 # Subscription
 [params.subscription]
 enable = false
-# mailchimp subsciption
-mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
-mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"                                                           # replace this code with yours
-title = "Subscribe for our monthly newsletter."
-input_placeholder = "Enter your email"
 
 # cookies
 [params.cookies]
 enable = false
 expire_days = 2
 
-
 ############################# Main Menu ########################
 [[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "About"
-url = "about/"
-weight = 3
-
-[[menu.main]]
-name = "Contact"
-url = "contact/"
-weight = 4
-
-[[menu.main]]
-name = "Buy Premium"
-url = "https://gethugothemes.com/products/bookworm/"
-weight = 5
-
-[[menu.main]]
-weight = 6
-url = "#"
-name = "Pages"
-hasChildren = true
-
-[[menu.main]]
-parent = "Pages"
-name = "Author"
-url = "author/"
-weight = 1
-
-[[menu.main]]
-parent = "Pages"
-name = "Tags"
-url = "tags/"
-weight = 2
-
-[[menu.main]]
-parent = "Pages"
-name = "Category"
-url = "categories/"
-weight = 3
-
-[[menu.main]]
-parent = "Pages"
-name = "Elements"
-weight = 4
-url = "elements/"
-
-[[menu.main]]
-parent = "Pages"
-name = "Privacy"
-url = "privacy/"
-weight = 5
-
-[[menu.main]]
-parent = "Pages"
-name = "Terms & Conditions"
-url = "terms-conditions/"
-weight = 6
-
-############################# Footer Menu ########################
-[[menu.footer]]
-name = "About"
-url = "about/"
-weight = 1
-
-[[menu.footer]]
 name = "Authors"
 url = "author/"
+weight = 1
+
+[[menu.main]]
+name = "RSS"
+url = "//blog/index.xml"
 weight = 2
 
-[[menu.footer]]
-name = "Privacy"
-url = "privacy/"
-weight = 3
-
-[[menu.footer]]
-name = "Terms & Conditions"
-url = "terms-conditions/"
-weight = 4
+############################# Footer Menu ########################
 
 # Social Icons
 [[params.social]]
-icon = "lab la-facebook-f"        # https://icons8.com/line-awesome
-url = "https://www.facebook.com/"
+icon = "las la-rss"       # https://icons8.com/line-awesome
+url = "//blog/index.xml"
 
 [[params.social]]
-icon = "lab la-twitter"          # https://icons8.com/line-awesome
-url = "https://www.twitter.com/"
+icon = "las la-envelope"
+url = "mailto:rahul@theproductblog.net?cc=neha@theproductblog.net"
 
 [[params.social]]
-icon = "lab la-instagram"          # https://icons8.com/line-awesome
-url = "https://www.instagram.com/"
+icon = "lab la-linkedin-in"
+url = "https://www.linkedin.com/in/rahulrai-in/"
 
 [[params.social]]
-icon = "lab la-linkedin-in"       # https://icons8.com/line-awesome
-url = "https://www.linkedin.com/"
+icon = "lab la-linkedin-in"
+url = "https://www.linkedin.com/in/nehabharadwaj/"

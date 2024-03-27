@@ -1,9 +1,6 @@
 ---
 title: "Neha Bharadwaj Rai"
 image: "images/author/neha.jpg"
-email: "abdulmonnafsomrat@gmail.com"
-date: 2021-01-26T10:14:19+06:00
-draft: false
 social:
 - icon: "la-linkedin-in"
   link: "https://linkedin.com"

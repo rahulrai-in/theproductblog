@@ -1,8 +1,8 @@
 ---
 title: 30-60-90 Day Plan for New Product Managers
-image: "images/post/07.jpg"
+image: "01.jpg"
 date: 2024-01-24
-author: "rahul"
+author: rahul
 ---
 
 As a new product manager joining a team, creating a structured onboarding plan for your first 90 days is crucial for setting yourself up for success. This plan serves as a roadmap, aligning expectations with your manager and team while ensuring you tackle the right priorities during this pivotal transition period.
