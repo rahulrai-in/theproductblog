@@ -77,6 +77,8 @@ favicon = "images/favicon.png"
 # Meta data
 description = "Gain a competitive edge in the dynamic field of product management. Get insights on product strategy, roadmap planning, agile methodologies, and team leadership!"
 author = "The Product Blog Authors"
+images = ['https://res.cloudinary.com/rahulrai/image/upload/v1711516564/og_tpb.png']
+title = 'The Product Blog'
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # search

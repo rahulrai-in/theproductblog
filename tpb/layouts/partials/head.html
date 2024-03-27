@@ -1,0 +1,27 @@
+<head>
+  <meta charset="utf-8">
+  <title>{{ .Title }}</title>
+
+  <meta name="author" content="{{ site.Params.author }}">
+  <meta name="description" content="{{ with .Params.description }} {{.}} {{else}} {{ with site.Params.description }} {{.}} {{end}} {{end}}">
+
+  {{ "<!-- mobile responsive meta -->" | safeHTML}}
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  
+  <!-- theme meta -->
+  <meta name="theme-name" content="bookworm-light" />
+
+  <!-- favicon -->
+  {{ partialCached "favicon" . }}
+
+  {{ "<!-- CSS Plugins -->" | safeHTML}}
+  {{ partialCached "style.html" . }}
+  <!-- @rahul: Added OG template -->
+  {{ template "_internal/opengraph.html" . }}
+  <!-- @rahul: Added MS Clarity -->
+  {{ if not hugo.IsProduction }}
+  <script type="text/javascript">
+  !function(t,e,c,n,a,r,s){t[c]=t[c]||function(){(t[c].q=t[c].q||[]).push(arguments)},(r=e.createElement(n)).async=1,r.src="https://www.clarity.ms/tag/"+a,(s=e.getElementsByTagName(n)[0]).parentNode.insertBefore(r,s)}(window,document,"clarity","script","ln1dacifbc");
+  </script>
+  {{ end }}
+</head>
