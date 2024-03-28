@@ -77,7 +77,7 @@ favicon = "images/favicon.png"
 # Meta data
 description = "Gain a competitive edge in the dynamic field of product management. Get insights on product strategy, roadmap planning, agile methodologies, and team leadership!"
 author = "The Product Blog Authors"
-images = ['https://res.cloudinary.com/rahulrai/image/upload/v1711516564/og_tpb.png']
+images = ['https://res.cloudinary.com/rahulrai/image/upload/v1711597842/og_tpb_new.png']
 title = 'The Product Blog'
 # search
 search = true
