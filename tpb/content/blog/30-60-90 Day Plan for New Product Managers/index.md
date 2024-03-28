@@ -1,6 +1,6 @@
 ---
 title: 30-60-90 Day Plan for New Product Managers
-image: cover.jpg
+image: cover.png
 date: 2024-01-24
 author: rahul
 ---
