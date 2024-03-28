@@ -21,7 +21,7 @@
 
           <div class="collapse navbar-collapse" id="navHeader">
 		    <!-- @rahul: aligned menu items to the right -->
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav content-align-custom">
               {{ $current := . }}
               {{ range site.Menus.main }}
               {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}

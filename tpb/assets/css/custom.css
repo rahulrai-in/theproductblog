@@ -10,3 +10,19 @@ li p {
 .content ul li::before {
     top: 11px !important;
 }
+
+/* Fix menu alignment based on screen size */
+@media only screen and (max-width: 992px) {
+    .content-align-custom {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+
+/* For screens larger than 992px */
+@media only screen and (min-width: 992px) {
+    .content-align-custom {
+        margin-left: auto !important;
+        margin-right: 0 !important;
+    }
+}
