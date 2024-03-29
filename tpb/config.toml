@@ -6,6 +6,9 @@ theme = "bookworm"
 paginate = "20"
 # post excerpt
 summaryLength = "20"
+# removes categories and tags
+disableKinds = ["taxonomy", "taxonomyTerm"]
+enableRobotsTXT = false
 
 ############################# Modules ##############################
 [module.hugoVersion]
