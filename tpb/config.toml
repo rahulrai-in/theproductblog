@@ -112,7 +112,7 @@ weight = 1
 
 [[menu.main]]
 name = "RSS"
-url = "//blog/index.xml"
+url = "https://theproductblog.net/blog/index.xml"
 weight = 2
 
 ############################# Footer Menu ########################
