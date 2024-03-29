@@ -123,7 +123,7 @@ weight = 2
 # Social Icons
 [[params.social]]
 icon = "las la-rss"       # https://icons8.com/line-awesome
-url = "//blog/index.xml"
+url = "https://theproductblog.net/blog/index.xml"
 
 [[params.social]]
 icon = "las la-envelope"
